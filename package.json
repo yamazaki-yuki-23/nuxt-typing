@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-typing",
+  "version": "1.0.0",
+  "description": "My primo Nuxt.js project",
+  "author": "yamazaki-yuki-23",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.1.0",
+    "lodash": "^4.17.15",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
