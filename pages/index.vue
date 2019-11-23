@@ -43,9 +43,11 @@ export default {
 
   methods: {
     start(){
-      this.status = "started"
-      this.timer = setInterval(this.timerCount, 100)
-      this.answer = ""
+      if(this.status == "ready"){
+        this.status = "started"
+        this.timer = setInterval(this.timerCount, 100)
+        this.answer = ""
+      }
     },
 
     timerCount(){
