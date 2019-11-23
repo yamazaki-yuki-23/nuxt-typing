@@ -1,6 +1,6 @@
 # nuxt-typing
 
-> My primo Nuxt.js project
+> このアプリはnuxt.jsでタイピングゲームを楽しめます
 
 ## Build Setup
 
